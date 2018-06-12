@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee0ced3-67d9-44f4-ae88-4764ec573ac7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/java/src/JSONParser.java" afterPath="$PROJECT_DIR$/java/src/JSONParser.java" />
       <change beforePath="$PROJECT_DIR$/java/src/WorldCup2014Example.java" afterPath="$PROJECT_DIR$/java/src/WorldCup2014Example.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,12 +18,12 @@
       <file leaf-file-name="JSONParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,7 +195,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/java/src/JSONParserFiles/JSONLayout.java" />
-        <option value="$PROJECT_DIR$/java/src/JSONParser.java" />
         <option value="$PROJECT_DIR$/java/src/Goal.java" />
         <option value="$PROJECT_DIR$/java/src/Stadium.java" />
         <option value="$PROJECT_DIR$/java/src/Team.java" />
@@ -203,6 +202,7 @@
         <option value="$PROJECT_DIR$/java/src/Round.java" />
         <option value="$PROJECT_DIR$/java/src/WorldCup.java" />
         <option value="$PROJECT_DIR$/java/src/WorldCup2014Example.java" />
+        <option value="$PROJECT_DIR$/java/src/JSONParser.java" />
       </list>
     </option>
   </component>
@@ -568,12 +568,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/JSONParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
           </folding>
         </state>
       </provider>
