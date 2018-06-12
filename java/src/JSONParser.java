@@ -14,8 +14,8 @@ public class JSONParser {
      * @param layoutJSON - String JSON file to be parsed
      * @return - a layout object containing the data from JSON
      */
-    public static JSONLayout parseLayout(String layoutJSON) {
-        return gson.fromJson(layoutJSON, JSONLayout.class);
+    public static WorldCup parseLayout(String layoutJSON) {
+        return gson.fromJson(layoutJSON, WorldCup.class);
     }
 
     /**
@@ -24,7 +24,7 @@ public class JSONParser {
      * @param filePath - a path to the JSON file to parse
      * @return - a layout object containing the data from JSON
      */
-    public static JSONLayout parseLayoutFromFilePath(String filePath) {
+    public static WorldCup parseLayoutFromFilePath(String filePath) {
         File fileToParse = new File(filePath);
         try {
             Scanner fileReader = new Scanner(fileToParse);
