@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aee0ced3-67d9-44f4-ae88-4764ec573ac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/java/src/JSONParser.java" afterPath="$PROJECT_DIR$/java/src/JSONParser.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/Round.java" afterPath="$PROJECT_DIR$/java/src/Round.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/WorldCup.java" afterPath="$PROJECT_DIR$/java/src/WorldCup.java" />
+      <change beforePath="$PROJECT_DIR$/java/src/Match.java" afterPath="$PROJECT_DIR$/java/src/Match.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Round.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Round.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/Round.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Match.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Match.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="25">
+              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -120,6 +118,7 @@
         <option value="$PROJECT_DIR$/java/src/JSONParser.java" />
         <option value="$PROJECT_DIR$/java/src/WorldCup.java" />
         <option value="$PROJECT_DIR$/java/src/Round.java" />
+        <option value="$PROJECT_DIR$/java/src/Match.java" />
       </list>
     </option>
   </component>
@@ -341,14 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/Match.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -397,6 +388,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Match.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
