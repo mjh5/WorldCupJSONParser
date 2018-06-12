@@ -1,5 +1,8 @@
 import com.google.gson.Gson;
 
+import java.io.File;
+import java.util.Scanner;
+
 public class JSONParser {
 
     //Gson object for parsing JSON
@@ -22,7 +25,23 @@ public class JSONParser {
      * @return - a layout object containing the data from JSON
      */
     public static JSONLayout parseLayoutFromFilePath(String filePath) {
-        //TODO: Write this method and corresponding test method
+        File fileToParse = new File(filePath);
+        try {
+            Scanner fileReader = new Scanner(fileToParse);
+            String jsonString = getFileAsString(fileReader);
+            return parseLayout(jsonString);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
         return null;
+    }
+
+    private static String getFileAsString(Scanner fileReader) {
+        StringBuilder fileAsString = new StringBuilder();
+        while (fileReader.hasNextLine())
+            fileAsString.append(fileReader.nextLine());
+
+        return "";
     }
 }
