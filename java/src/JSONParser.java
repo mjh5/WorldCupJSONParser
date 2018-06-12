@@ -41,7 +41,6 @@ public class JSONParser {
         StringBuilder fileAsString = new StringBuilder();
         while (fileReader.hasNextLine())
             fileAsString.append(fileReader.nextLine());
-
-        return "";
+        return fileAsString.toString();
     }
 }
