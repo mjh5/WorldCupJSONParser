@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee0ced3-67d9-44f4-ae88-4764ec573ac7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/java/src/WorldCup2014Example.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/res/worldcup2014json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,6 +50,18 @@
             <state relative-caret-position="0">
               <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worldcup2014json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/worldcup2014json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#42#86371#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/java/src/Stadium.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding>
                 <element signature="e#156#157#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
@@ -137,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/java/src/Goal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -224,17 +237,6 @@
               <item name="WorldCupJSONParser" type="b2602c69:ProjectViewProjectNode" />
               <item name="WorldCupJSONParser" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WorldCupJSONParser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorldCupJSONParser" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorldCupJSONParser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorldCupJSONParser" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,6 +253,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\SummerProjects2018\WorldCupJSONParser\res" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -425,7 +432,7 @@
     <entry file="file://$PROJECT_DIR$/java/src/Goal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
           <folding>
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
@@ -446,7 +453,7 @@
     <entry file="file://$PROJECT_DIR$/java/src/Stadium.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding>
             <element signature="e#156#157#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
@@ -524,6 +531,16 @@
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/worldcup2014json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#86371#0" expanded="false" />
           </folding>
         </state>
       </provider>
