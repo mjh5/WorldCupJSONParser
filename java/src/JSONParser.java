@@ -1,6 +1,4 @@
 import com.google.gson.Gson;
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.Unirest;
 
 public class JSONParser {
 
@@ -18,25 +16,11 @@ public class JSONParser {
     }
 
     /**
-     * Parses a Layout object a web page
+     * Parses a Layout object from a JSON file
      *
-     * @param urlString - the string url from the web page
-     * @return - a Layout object containing the data from the web page
+     * @param filePath - a path to the JSON file to parse
+     * @return - a layout object containing the data from JSON
      */
-    public static JSONLayout parseLayoutFromURL(String urlString) {
-        try {
-            //Retrieve JSON String from the
-            String url = urlString;
-            HttpResponse<String> stringHttpResponse = Unirest.get(url).asString();
-            String jsonFromURL = stringHttpResponse.getBody();
-
-            return parseLayout(jsonFromURL);
-        } catch (Exception e) {
-            System.out.print(e.getMessage());
-            return null;
-        }
-    }
-
     public static JSONLayout parseLayoutFromFilePath(String filePath) {
         //TODO: Write this method and corresponding test method
         return null;
