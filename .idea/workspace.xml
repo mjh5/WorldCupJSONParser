@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee0ced3-67d9-44f4-ae88-4764ec573ac7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/java/src/Goal.java" afterPath="$PROJECT_DIR$/java/src/Goal.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/Match.java" afterPath="$PROJECT_DIR$/java/src/Match.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/Round.java" afterPath="$PROJECT_DIR$/java/src/Round.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/Stadium.java" afterPath="$PROJECT_DIR$/java/src/Stadium.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/Team.java" afterPath="$PROJECT_DIR$/java/src/Team.java" />
-      <change beforePath="$PROJECT_DIR$/java/src/WorldCup.java" afterPath="$PROJECT_DIR$/java/src/WorldCup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/java/src/WorldCup2014Example.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldCup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorldCup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/WorldCup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -45,6 +39,16 @@
                 <element signature="e#223#224#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldCup2014Example.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/src/WorldCup2014Example.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -521,6 +525,14 @@
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/WorldCup2014Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
