@@ -4,8 +4,6 @@
     <list default="true" id="aee0ced3-67d9-44f4-ae88-4764ec573ac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/java/src/WorldCup2014Example.java" afterPath="$PROJECT_DIR$/java/src/WorldCup2014Example.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/JSONParser.class" afterPath="$PROJECT_DIR$/out/production/java/JSONParser.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/WorldCup2014Example.class" afterPath="$PROJECT_DIR$/out/production/java/WorldCup2014Example.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +47,8 @@
       <file leaf-file-name="WorldCup2014Example.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/WorldCup2014Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="141" lean-forward="false" selection-start-line="3" selection-start-column="141" selection-end-line="3" selection-end-column="141" />
+            <state relative-caret-position="450">
+              <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -585,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/WorldCup2014Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="141" lean-forward="false" selection-start-line="3" selection-start-column="141" selection-end-line="3" selection-end-column="141" />
+        <state relative-caret-position="450">
+          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
           <folding />
         </state>
       </provider>
