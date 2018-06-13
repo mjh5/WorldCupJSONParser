@@ -1,7 +1,7 @@
 public class Round {
     //Data fields parsed from JSON
-    String name;
-    Match[] matches;
+    private String name;
+    private Match[] matches;
 
     //Auto generated getter methods
 

@@ -1,7 +1,7 @@
 public class WorldCup {
     //Data fields parsed from JSON
-    String name;
-    Round[] rounds;
+    private String name;
+    private Round[] rounds;
 
     //Auto generated getter methods
 

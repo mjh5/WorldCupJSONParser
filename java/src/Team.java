@@ -1,7 +1,7 @@
 public class Team {
     //Data fields parsed from JSON
-    String name;
-    String code;
+    private String name;
+    private String code;
 
     //Auto generated getter methods
 

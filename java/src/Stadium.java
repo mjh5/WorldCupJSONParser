@@ -1,7 +1,7 @@
 public class Stadium {
     //Data fields parsed from JSON
-    String key;
-    String name;
+    private String key;
+    private String name;
 
     //Auto generated getter methods
 

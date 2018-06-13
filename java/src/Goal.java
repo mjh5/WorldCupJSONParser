@@ -1,11 +1,11 @@
 public class Goal {
     //Data fields parsed from JSON
-    String name;
-    Team team;
-    int minute;
-    int score1;
-    int score2;
-    boolean owngoal;
+    private String name;
+    private Team team;
+    private int minute;
+    private int score1;
+    private int score2;
+    private boolean owngoal;
 
     //Auto generated getter methods
 
