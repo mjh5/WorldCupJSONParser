@@ -20,7 +20,7 @@ public class WorldCup {
     /**
      * Returns an array of the rounds of the World Cup
      *
-     * @return Array of Round objects
+     * @return Array of round objects
      */
     public Round[] getRounds() {
         return rounds;
