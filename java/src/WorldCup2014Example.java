@@ -10,12 +10,15 @@ public class WorldCup2014Example {
         Round[] rounds = worldCup.getRounds();
 
         //Will print "BRA"
-        System.out.println(rounds[0].getMatches()[0].getTeam1().getCode());
+        System.out.println(rounds[0].getMatches()[0].getWinner().getCode());
 
         //The final match of the 2014 World Cup
         Match championship = rounds[rounds.length - 1].getMatches()[0];
 
         //Will print " Mario Gotze"
         System.out.println(championship.getGoals()[0].getName());
+
+        //Other method testing
+
     }
 }
