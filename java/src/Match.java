@@ -16,6 +16,18 @@ public class Match {
     private String city;
     private String timezone;
 
+    /**
+     * Returns the game winning goal
+     * @return the game winning goal
+     */
+    public Goal getGameWinningGoal() {
+        if (goals.length == 0) {
+            return null;
+        }
+
+        return goals[goals.length - 1];
+    }
+
     //Auto generated getter methods
 
     /**
