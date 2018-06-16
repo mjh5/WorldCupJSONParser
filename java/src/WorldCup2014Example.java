@@ -15,7 +15,7 @@ public class WorldCup2014Example {
         //The final match of the 2014 World Cup
         Match championship = rounds[rounds.length - 1].getMatches()[0];
 
-        //Will print " Mario Gotze"
+        //Will print "Mario Gotze"
         System.out.println(championship.getGameWinningGoal().getName());
 
 

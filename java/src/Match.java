@@ -18,12 +18,13 @@ public class Match {
 
     /**
      * Return the winning team
+     *
      * @return the winning team, null if draw
      */
     public Team getWinner() {
         if (score1 > score2) {
             return team1;
-        } else if (score1 < score2){
+        } else if (score1 < score2) {
             return team2;
         } else {
             return null;
@@ -31,7 +32,23 @@ public class Match {
     }
 
     /**
+     * Returns the losing team
+     *
+     * @return the losing team, null if draw
+     */
+    public Team getLoser() {
+        if (score1 > score2) {
+            return team2;
+        } else if (score1 < score2) {
+            return team1;
+        } else {
+            return null;
+        }
+    }
+
+    /**
      * Returns the game winning goal
+     *
      * @return the game winning goal, null if no goals were scored
      */
     public Goal getGameWinningGoal() {
