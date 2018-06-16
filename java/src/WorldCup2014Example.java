@@ -16,9 +16,8 @@ public class WorldCup2014Example {
         Match championship = rounds[rounds.length - 1].getMatches()[0];
 
         //Will print " Mario Gotze"
-        System.out.println(championship.getGoals()[0].getName());
+        System.out.println(championship.getGameWinningGoal().getName());
 
-        //Other method testing
 
     }
 }
