@@ -93,6 +93,22 @@ public class Match {
         }
     }
 
+    /**
+     * Calculates the points gained from the given team
+     *
+     * @param team the team to calculate points for
+     * @return the points gained by the given team
+     */
+    public int getPoints(Team team) {
+        if (team.equals(getWinner())) {
+            return 3;
+        } else if (team.equals(getLoser())) {
+            return 0;
+        } else {
+            return 1;
+        }
+    }
+
     //Auto generated getter methods
 
     /**
