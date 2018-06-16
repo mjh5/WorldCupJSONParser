@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 /**
  * Object to represent a Team in the World Cup
  */
@@ -6,7 +8,9 @@ public class Team {
     private String name;
     private String code;
 
-    //Auto generated getter methods
+
+
+    //Auto generated methods
 
     /**
      * Returns the team name or country
@@ -24,5 +28,20 @@ public class Team {
      */
     public String getCode() {
         return code;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Team)) return false;
+        Team team = (Team) o;
+        return Objects.equals(name, team.name) &&
+                Objects.equals(code, team.code);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(name, code);
     }
 }

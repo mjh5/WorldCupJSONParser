@@ -18,6 +18,8 @@ public class WorldCup2014Example {
         //Will print "Mario Gotze"
         System.out.println(championship.getGameWinningGoal().getName());
 
+        //Will print championship match date
+        System.out.println(championship.getDateAndTime());
 
     }
 }

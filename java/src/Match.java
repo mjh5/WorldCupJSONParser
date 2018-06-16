@@ -61,12 +61,26 @@ public class Match {
         return goals[goals.length - 1];
     }
 
-    public Date getMatchDate() {
-        int year = Integer.parseInt(date.substring(0,4));
-        int month = Integer.parseInt(date.substring(5,7));
-        int day = Integer.parseInt(date.substring(8,10));
+    /**
+     * Returns a Date object representing the date of the match
+     *
+     * @return a Date object representing the date of the match
+     */
+    public Date getDateAndTime() {
+        int year = Integer.parseInt(date.substring(0, 4));
+        int month = Integer.parseInt(date.substring(5, 7));
+        int day = Integer.parseInt(date.substring(8, 10));
 
-        return new Date(year, month, day);
+        int hour = Integer.parseInt(time.substring(0,2));
+        int minute = Integer.parseInt(time.substring(3, time.length()));
+
+        return new Date(year, month, day, hour, minute);
+    }
+
+    public int getGoalDifferential(Team team) {
+        if (team1.equals(team)) {
+            
+        }
     }
 
     //Auto generated getter methods
