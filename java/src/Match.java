@@ -71,15 +71,25 @@ public class Match {
         int month = Integer.parseInt(date.substring(5, 7));
         int day = Integer.parseInt(date.substring(8, 10));
 
-        int hour = Integer.parseInt(time.substring(0,2));
+        int hour = Integer.parseInt(time.substring(0, 2));
         int minute = Integer.parseInt(time.substring(3, time.length()));
 
         return new Date(year, month, day, hour, minute);
     }
 
+    /**
+     * Calculates the goal differential of the match for a given team
+     *
+     * @param team - the team to calculate goal differential for
+     * @return the goal differential of the given team, 404 if the team did not play in the match
+     */
     public int getGoalDifferential(Team team) {
         if (team1.equals(team)) {
-            
+            return score1 - score2;
+        } else if (team2.equals(team)) {
+            return score2 - score1;
+        } else {
+            return 404;
         }
     }
 
