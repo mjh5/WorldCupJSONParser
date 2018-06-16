@@ -1,3 +1,5 @@
+import java.util.Date;
+
 /**
  * Object representing an individual World Cup match
  */
@@ -57,6 +59,14 @@ public class Match {
         }
 
         return goals[goals.length - 1];
+    }
+
+    public Date getMatchDate() {
+        int year = Integer.parseInt(date.substring(0,4));
+        int month = Integer.parseInt(date.substring(5,7));
+        int day = Integer.parseInt(date.substring(8,10));
+
+        return new Date(year, month, day);
     }
 
     //Auto generated getter methods
